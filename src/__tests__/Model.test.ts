@@ -1,5 +1,4 @@
-import Model from '../index'
-const MarkerModel = Model.MarkerModel
+import { MarkerModel } from '../index'
 test('MarkerModel', () => {
     const mm = new MarkerModel()
     mm.deviceName = '大门右侧'
